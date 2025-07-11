@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: rgba(37, 36, 50, 0.5);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway", sans-serif;
+    color: rgb(37, 36, 50);
+    font-weight: 700;
 }
 body{
     font-family: "Raleway", sans-serif;
@@ -53,4 +59,51 @@ header{
     font-size: 60px;
     margin-bottom: 40px;
     
+}
+
+.action-sec{
+    padding: 100px 0;
+}
+.action-sec-cntlr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-left h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.action-left p{
+    font-size: 18px;
+    color: rgb(37, 36, 50);
+    margin-bottom: 35px;
+}
+.action-right img{
+    border-radius: 48px;
+}
+.productive-sec{
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+    padding: 50px 80px;
+}
+.productiv-sec-cntlr{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-sec-title{
+    font-size: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.productiv-sec-cntlr div{
+    display: ;
+}
+.productiv-sec-cntlr strong{
+    font-size: 80px;
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(78, 71, 255);
+}
+.productiv-sec-cntlr span{
+    font-size: 20px;
 }
