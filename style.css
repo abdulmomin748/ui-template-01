@@ -3,7 +3,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
-    background:  rgb(245, 248, 255);
+    font-family: "Raleway", sans-serif;
+
+}
+.cmn-btn{
+    background-color: rgb(78, 71, 255);
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.cmn-btn:hover{
+    background-color: rgb(58, 51, 204);
+    transition: 0.3s;
+}
+
+
+section,header{
+    width: 1140px;
+    margin: 0 auto;
+}
+.top-cntlr{
+    width: 100%;
+}
+header{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+.logo a{
+    width: 100px;
+    display: inline-block;
+}
+.logo img{
+    width: 100%;
+}
+
+.banner-sec{
+    padding-bottom: 150px;
+    text-align: center;
+}
+.banner-cntlr h1{
+    color: rgb(37, 36, 50);
+    font-size: 60px;
+    margin-bottom: 40px;
+    
 }
