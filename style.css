@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5,h6{
 }
 body{
     font-family: "Raleway", sans-serif;
+    background: rgb(245, 248, 255);
 
 }
 .cmn-btn{
@@ -21,6 +22,7 @@ body{
     font-size: 16px;
     color: white;
     padding: 10px 20px;
+    display: inline-block;
     border-radius: 5px;
 }
 .cmn-btn:hover{
@@ -85,6 +87,7 @@ header{
     border-radius: 24px;
     background: rgba(78, 71, 255, 0.1);
     padding: 50px 80px;
+    margin-bottom: 130px;
 }
 .productiv-sec-cntlr{
     display: flex;
@@ -96,7 +99,7 @@ header{
     text-align: center;
 }
 .productiv-sec-cntlr div{
-    display: ;
+    
 }
 .productiv-sec-cntlr strong{
     font-size: 80px;
@@ -106,4 +109,82 @@ header{
 }
 .productiv-sec-cntlr span{
     font-size: 20px;
+}
+
+
+.user-sec-title{
+    font-size: 42px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.user-review-cntlr{
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.user-review{
+    border: 1px solid rgb(242, 237, 237);
+    padding: 24px;
+}
+.star-cntlr{
+    margin-bottom: 20px;
+}
+
+.user-say-sec{
+    padding: 130px 0;
+}
+.user-review-cntlr h4{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.user-review-cntlr p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.reiview-person {
+    display: flex;
+}
+.reiview-person img{
+    margin-right: 15px;
+    border-radius: 100%;
+}
+.reiview-person span:nth-child(1){
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.focus-better-sec-cntlr{
+    border-radius: 14px;
+    background: rgb(255, 255, 255);
+    padding: 71px 0;
+    text-align: center;
+}
+.focus-better-sec-cntlr h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.focus-better-sec-cntlr p{
+    margin-bottom: 20px;
+}
+.focus-better-sec-cntlr .cmn-btn{
+    margin-bottom: 20px;
+    
+}
+.focus-img-cntlr{
+    width: 850px;
+    margin: auto;
+}
+.focus-img-cntlr img{
+    width: 100%;
+    border-radius: 48px;
 }
