@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +15,11 @@ h1,h2,h3,h4,h5,h6{
 body{
     font-family: "Raleway", sans-serif;
     background: rgb(245, 248, 255);
-
+    font-size: 16px;
+    font-weight: 400px;
+}
+p{
+    font-family: "Inter", sans-serif;
 }
 .cmn-btn{
     background-color: rgb(78, 71, 255);
@@ -26,8 +31,10 @@ body{
     border-radius: 5px;
 }
 .cmn-btn:hover{
-    background-color: rgb(58, 51, 204);
-    transition: 0.3s;
+    background-color: rgb(8, 5, 56);
+    transition: 0.5s;
+
+
 }
 
 
@@ -98,14 +105,13 @@ header{
     margin-bottom: 40px;
     text-align: center;
 }
-.productiv-sec-cntlr div{
-    
-}
+
 .productiv-sec-cntlr strong{
     font-size: 80px;
     display: block;
     margin-bottom: 5px;
     color: rgb(78, 71, 255);
+    font-family: "Inter", sans-serif;
 }
 .productiv-sec-cntlr span{
     font-size: 20px;
@@ -187,4 +193,64 @@ header{
 .focus-img-cntlr img{
     width: 100%;
     border-radius: 48px;
+}
+
+.get-in-touch-sec{
+    padding: 71px 0;
+}
+.get-in-touch-sec-cntlr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-in-touch-title{
+    font-size: 90px;
+}
+
+.form-cntlr {
+    font-family: Inter;
+    width: 500px;
+}
+.form-cntlr label{
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+input,textarea{
+    padding: 20px 32px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+
+}
+ input[type=submit]{
+    cursor: pointer;
+ }
+.form-cntlr div{
+    margin-bottom: 15px;
+}
+.ftr-sec{
+    padding: 80px 0;
+    text-align: center;
+}
+.ftr-sec-cntlr{
+    width: 520px;
+    margin: auto;
+    color: rgb(137, 135, 161);
+}
+.ftr-logo{
+    margin-bottom: 10px;
+}
+.ftr-links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.ftr-links a:hover{
+ color: black;
+ transition: .5s;
 }
